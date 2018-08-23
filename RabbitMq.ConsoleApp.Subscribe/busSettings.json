@@ -1,0 +1,19 @@
+{
+  "HostName": "localhost",
+  "Port": 15672,
+  "Username": "agent",
+  "Password": "agent",
+  "QueueSetting": {
+    "QueueName": "greetingsQueue",
+    "Exclusive": false,
+    "AutoDelete": false,
+    "Durable": false,
+    "AutoAck": true
+  },
+  "ExchangeSetting": {
+    "ExchangeName": "",
+    "RoutingKey": "greetingsQueue",
+    "BasicProperties": null,
+    "ExchangeType": "direct"
+  }
+}
